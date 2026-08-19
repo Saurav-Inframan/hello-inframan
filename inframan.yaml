@@ -6,6 +6,7 @@ services:
     type: web
     path: ""
     port: 3000
+    domain: saurav1.inframan.cloud
     scaling:
       type: concurrency
       min_replicas: 0
